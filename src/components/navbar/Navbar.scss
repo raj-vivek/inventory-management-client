@@ -1,0 +1,78 @@
+.navbar {
+  height: 5.5rem;
+  background-color: #f9f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left {
+      display: flex;
+      gap: 0.8rem;
+
+      h1 {
+        color: #f25287;
+        font-family: "Whisper", cursive;
+        font-size: 3rem;
+        margin: 0;
+      }
+
+      span {
+        margin-top: 1.9rem;
+        font-size: 0.8rem;
+      }
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+
+      .loggedIn {
+        .userDetails {
+          padding: 0.5rem;
+        }
+
+        .dropMenu{
+          position: absolute;
+          border-radius: 5px;
+          padding: 0.8rem 1rem;
+          background-color: #DDDDDD;
+
+          span{
+            background-color: white;
+            padding: 0.2rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+
+            &:hover{
+              background-color: #DDDDDD;
+            }
+          }
+
+          &.hidden{
+            display: none;
+          }
+        }
+      }
+
+      .loginButton {
+        background-color: #f7d9d9;
+        padding: 0.4rem 1rem;
+        border: 2px solid #f25287;
+        border-radius: 5px;
+        color: #f25287;
+        background-color: transparent;
+
+        &:hover {
+          background-color: #f25287;
+          color: white;
+        }
+      }
+    }
+  }
+}

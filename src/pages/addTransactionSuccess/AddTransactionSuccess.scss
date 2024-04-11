@@ -1,0 +1,16 @@
+.addTransactionSuccess {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0 6rem;
+
+  .container {
+    display: flex;
+    justify-content: center;
+
+    .box {
+      width: 70%;
+      min-width: 300px;
+      max-width: 600px;
+    }
+  }
+}

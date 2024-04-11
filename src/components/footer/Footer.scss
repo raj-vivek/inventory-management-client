@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  height: 2.5rem;
+  background-color: #F9F3F3;
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+  }
+}

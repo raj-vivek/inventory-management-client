@@ -1,0 +1,46 @@
+.app {
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 1280px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+input,
+button,
+select {
+  padding: 0 0.5rem;
+  height: 2rem;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+button {
+  height: 2.5rem;
+  border: 0;
+  background-color: #f25287;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #cf396b;
+  }
+}
+
+/* Hide the arrow buttons */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+}

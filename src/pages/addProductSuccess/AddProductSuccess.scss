@@ -1,0 +1,52 @@
+.addProductSuccess {
+  display: flex;
+  justify-content: center;
+
+  .container {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+
+    .productData {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .code {
+        font-size: 4rem;
+        color: #f25287;
+      }
+
+      .productDetails {
+        border: 1px solid rgb(199, 199, 199);
+        border-radius: 5px;
+        padding: 0.5rem 1rem;
+
+        div {
+          margin: 0.5rem 0;
+          .label {
+            font-weight: bold;
+            color: #f25287;
+          }
+        }
+
+        .colorAndSizes {
+          .colorAndSize {
+            border: 1px solid rgb(199, 199, 199);
+            border-radius: 5px;
+            padding: 0.5rem 1rem;
+
+            .sizes {
+              display: flex;
+              gap: 1.5rem;
+              .size {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
