@@ -5,7 +5,7 @@ import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
-import AddTransaction from "./pages/addTransaction/AddTransaction";
+import AddTransaction from "./pages/product/Product";
 import AddProduct from "./pages/addProduct/AddProduct";
 import Products from "./pages/products/Products";
 import Transactions from "./pages/transactions/Transactions";
@@ -32,14 +32,6 @@ const router = createBrowserRouter([
         element: <Register />,
       },
       {
-        path: "/addtransaction",
-        element: <AddTransaction />,
-      },
-      {
-        path: "/addtransactionsuccess",
-        element: <AddTransactionSuccess />,
-      },
-      {
         path: "/addproduct",
         element: <AddProduct />,
       },
@@ -50,6 +42,14 @@ const router = createBrowserRouter([
       {
         path: "/products",
         element: <Products />,
+      },
+      {
+        path: "/product",
+        element: <AddTransaction />,
+      },
+      {
+        path: "/addtransactionsuccess",
+        element: <AddTransactionSuccess />,
       },
       {
         path: "/transactions",
