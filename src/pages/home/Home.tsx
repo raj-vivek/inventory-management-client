@@ -17,18 +17,15 @@ function Home() {
               <Link to="/addproduct" className="link optionTile">
                 <span>Create a new product entry</span>
               </Link>
+              <Link to="/product" className="link optionTile">
+                <span>View a product</span>
+              </Link>
               <Link to="/products" className="link optionTile">
                 <span>View all product entries</span>
               </Link>
               Transactions
-              <Link to="/addtransaction" className="link optionTile">
-                <span>Enter a transaction</span>
-              </Link>
               <Link to="/transactions" className="link optionTile">
                 <span>Transaction report for today</span>
-              </Link>
-              <Link to="/transactions" className="link optionTile">
-                <span>View all transactions for a product</span>
               </Link>
             </div>
           </div>
