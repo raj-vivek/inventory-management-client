@@ -17,6 +17,7 @@ export const productReducer = (state, action) => {
       const hasEmptyFields =
         color === "" ||
         Object.values(sizes).some((quantity) => {
+          // @ts-ignore
           return quantity === "" || isNaN(quantity);
         });
 

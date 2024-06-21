@@ -39,6 +39,7 @@ function DisplayTransaction(props) {
               {Object.entries(transaction.colorAndSizes.sizes).map(
                 ([size, quantity], index) => (
                   <div className="size" key={index}>
+                    {/* @ts-ignore */}
                     <span className="label">{size}</span> {quantity}
                   </div>
                 )

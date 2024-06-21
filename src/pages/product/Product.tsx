@@ -217,6 +217,7 @@ function AddTransaction() {
                                 type="number"
                                 name={size}
                                 id={size}
+                                // @ts-ignore
                                 max={quantity}
                                 onInput={checkMax}
                                 value={

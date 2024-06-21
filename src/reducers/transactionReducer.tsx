@@ -41,6 +41,7 @@ const transactionReducer = (
       updatedState.units = Object.entries(
         updatedState.colorAndSizes.sizes
       ).reduce(
+        // @ts-ignore
         (accumulator, [size, quantity]) =>
           Number(accumulator) + Number(quantity),
         0

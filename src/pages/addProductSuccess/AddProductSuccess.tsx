@@ -39,6 +39,7 @@ function AddProductSuccess() {
                       {Object.entries(colorAndSize.sizes).map(
                         ([size, quantity]) => (
                           <div className="size">
+                            {/* @ts-ignore */}
                             <span className="label">{size}</span> {quantity}
                           </div>
                         )

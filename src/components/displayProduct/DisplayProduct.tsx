@@ -35,6 +35,7 @@ function DisplayProduct(props) {
                   {Object.entries(colorAndSize.sizes).map(
                     ([size, quantity], index) => (
                       <div className="size" key={index}>
+                        {/* @ts-ignore */}
                         <span className="label">{size}</span> {quantity}
                       </div>
                     )

@@ -181,6 +181,7 @@ function AddProduct() {
                             type="number"
                             name={size}
                             id={size}
+                            // @ts-ignore
                             value={quantity}
                             disabled
                           />

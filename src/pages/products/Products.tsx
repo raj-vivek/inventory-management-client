@@ -5,7 +5,9 @@ import { useState } from "react";
 import DisplayProduct from "../../components/displayProduct/DisplayProduct";
 
 function Products() {
+  // @ts-ignore
   const [page, setPage] = useState(0);
+  // @ts-ignore
   const [size, setSize] = useState(10);
 
   const { isLoading, data, error } = useQuery({

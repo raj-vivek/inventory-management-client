@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Transactions.scss";
-import { useQuery, useQueryClient } from "@tanstack/react-query";
+import { useQuery } from "@tanstack/react-query";
 import newAxiosRequest from "../../utils/newAxiosRequest";
 import DisplayTransaction from "../../components/displayTransaction/DisplayTransaction";
 
