@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const newAxiosRequest = axios.create({
-  baseURL: "http://localhost:8080" + "/api/v1",
-  // timeout: 2000,
+  baseURL: import.meta.env.VITE_API_BASE_URL,
+  timeout: 5000,
   // crossDomain: true, // Allow cross-domain requests
 });
 
